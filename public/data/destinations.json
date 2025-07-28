@@ -1,0 +1,350 @@
+[
+  {
+    "id": "ahmedabad",
+    "name": "Ahmedabad",
+    "shortDescription": "The largest city in Gujarat offering a blend of ancient architecture and modern amenities.",
+    "description": "Ahmedabad, India's first UNESCO World Heritage City, is a vibrant metropolis with a rich heritage that spans over 600 years. Founded in 1411 by Sultan Ahmed Shah, the city boasts remarkable Indo-Islamic architecture, intricately carved wooden havelis, and bustling traditional markets. The city is divided by the Sabarmati River into the old city with its pols (traditional housing clusters) and the new city with modern buildings and wide roads.",
+    "image": "/data/images/destinations/ahmedabad-heritage.png",
+    "bannerImage": "/data/images/ahmedabad-banner.jpg",
+    "videoUrl": "https://www.youtube.com/embed/ULs80Fl2VFM",
+    "type": ["Heritage", "Cultural", "Urban"],
+    "category": "Heritage",
+    "priceRange": "₹₹",
+    "rating": 4.5,
+    "location": "Western Gujarat",
+    "attractions": [
+      {
+        "name": "Sabarmati Ashram",
+        "description": "The former home of Mahatma Gandhi and a pivotal center for India's independence movement.",
+        "image": "/data/images/destinations/sabarmati-ashram.jpg"
+      },
+      {
+        "name": "Adalaj Stepwell",
+        "description": "A magnificent five-story stepwell built in 1498 with intricate Islamic, Jain and Hindu architectural elements.",
+        "image": "/data/images/adalaj-stepwell.jpg"
+      },
+      {
+        "name": "Sidi Saiyyed Mosque",
+        "description": "Famous for its intricate jali (lattice) stone windows depicting the 'Tree of Life'.",
+        "image": "/data/images/sidi-saiyyed-mosque.jpg"
+      },
+      {
+        "name": "Kankaria Lake",
+        "description": "One of the largest lakes in Ahmedabad with recreational activities and a zoo nearby.",
+        "image": "/data/images/kankaria-lake.jpg"
+      }
+    ],
+    "culture": {
+      "description": "Ahmedabad's culture is a fascinating blend of Hindu and Islamic influences, reflected in its architecture, cuisine, and festivals. The city is known for its vibrant Navratri celebrations, colorful handicrafts, and delicious Gujarati thali.",
+      "highlights": [
+        "Patola silk weaving - A double ikat technique unique to Gujarat",
+        "Garba and Dandiya Raas - Traditional Gujarati dance forms",
+        "Uttarayan Festival - One of the biggest kite festivals in India"
+      ]
+    },
+    "weather": {
+      "bestTimeToVisit": "October to March offers pleasant weather ideal for sightseeing.",
+      "seasons": {
+        "summer": "Hot and dry from April to June (35°C to 45°C)",
+        "monsoon": "Moderate rainfall from July to September (25°C to 35°C)",
+        "winter": "Cool and pleasant from October to March (10°C to 30°C)"
+      }
+    },
+    "tips": [
+      "Try local street food at Manek Chowk night market",
+      "Experience the heritage walk through the old city's pols (traditional housing clusters)",
+      "Visit the city during Uttarayan (kite festival) in January to witness the vibrant celebrations",
+      "Most heritage sites are closed on Mondays"
+    ]
+  },
+  {
+    "id": "kutch",
+    "name": "Kutch",
+    "shortDescription": "A vast salt marsh famous for its white desert, handicrafts, and unique culture.",
+    "description": "The Kutch district is home to India's largest salt desert, the Great Rann of Kutch, which transforms into a surreal white landscape during winter. This region is not just known for its stunning natural beauty but also for its rich cultural heritage, colorful handicrafts, and diverse communities. The annual Rann Utsav festival showcases the region's vibrant arts, crafts, and folk traditions against the backdrop of the shimmering white desert under the full moon.",
+    "image": "/data/images/destinations/rann-of-kutch.jpg",
+    "bannerImage": "/data/images/kutch-banner.jpg",
+    "videoUrl": "https://www.youtube.com/embed/A9_cYfC2GUU",
+    "type": ["Natural Wonder", "Cultural", "Craft"],
+    "category": "Natural Wonder",
+    "priceRange": "₹₹",
+    "rating": 4.8,
+    "location": "Western Gujarat",
+    "attractions": [
+      {
+        "name": "White Rann",
+        "description": "The vast salt marsh that glows like silver under the moonlight during winter.",
+        "image": "/data/images/white-rann.jpg"
+      },
+      {
+        "name": "Kala Dungar (Black Hill)",
+        "description": "The highest point in Kutch offering panoramic views of the Great Rann.",
+        "image": "/data/images/kala-dungar.jpg"
+      },
+      {
+        "name": "Kutch Museum",
+        "description": "The oldest museum in Gujarat with artifacts showcasing the region's rich heritage.",
+        "image": "/data/images/kutch-museum.jpg"
+      },
+      {
+        "name": "Dholavira",
+        "description": "An ancient Indus Valley Civilization site with remarkable water conservation systems.",
+        "image": "/data/images/dholavira.jpg"
+      }
+    ],
+    "culture": {
+      "description": "Kutch is a melting pot of diverse communities, each with their unique crafts, embroidery styles, and cultural practices. The region is home to nomadic tribes, pastoral communities, and skilled artisans who have preserved their traditions over centuries.",
+      "highlights": [
+        "Kutchi embroidery - Featuring mirrors, threads, and intricate patterns",
+        "Rogan Art - An ancient cloth painting technique using natural colors",
+        "Kutchi folk music - Traditional bhajans and devotional songs"
+      ]
+    },
+    "weather": {
+      "bestTimeToVisit": "November to February, especially during the Rann Utsav festival.",
+      "seasons": {
+        "summer": "Extremely hot from April to June (35°C to 48°C)",
+        "monsoon": "Light rainfall from July to September (30°C to 38°C)",
+        "winter": "Pleasant days and cold nights from October to March (10°C to 30°C)"
+      }
+    },
+    "tips": [
+      "Book accommodation in advance during Rann Utsav (November to February)",
+      "Carry sunglasses, hat, and sunscreen for protection from the bright white salt desert",
+      "Visit tribal villages to purchase authentic handicrafts directly from artisans",
+      "Wear warm clothes for night visits to the White Rann as temperatures drop significantly"
+    ]
+  },
+  {
+    "id": "gir",
+    "name": "Gir National Park",
+    "shortDescription": "The last abode of the Asiatic Lion and a rich biodiversity hotspot.",
+    "description": "Gir National Park is the sole home of the majestic Asiatic Lions in their natural habitat outside Africa. Spread over 1,412 square kilometers, this deciduous forest ecosystem supports diverse wildlife, including leopards, jackals, antelopes, and over 300 bird species. The success story of Gir lies in its conservation efforts, which have increased the lion population from a mere 20 in the early 20th century to over 600 today, making it a wildlife enthusiast's paradise.",
+    "image": "/data/images/destinations/gir-national-park.jpg",
+    "bannerImage": "/data/images/gir-banner.jpg",
+    "videoUrl": "https://www.youtube.com/embed/Kz0-L4mYQ4M",
+    "type": ["Wildlife", "Nature", "Adventure"],
+    "category": "Wildlife",
+    "priceRange": "₹₹₹",
+    "rating": 4.7,
+    "location": "South-western Gujarat",
+    "attractions": [
+      {
+        "name": "Asiatic Lion Safari",
+        "description": "Guided jeep safari through the forest to spot the majestic Asiatic lions in their natural habitat.",
+        "image": "/data/images/gir-safari.jpg"
+      },
+      {
+        "name": "Kamleshwar Dam",
+        "description": "A beautiful reservoir within the sanctuary where wildlife congregates, especially during summer.",
+        "image": "/data/images/kamleshwar-dam.jpg"
+      },
+      {
+        "name": "Gir Interpretation Zone",
+        "description": "An educational center with exhibits on the ecosystem and conservation efforts.",
+        "image": "/data/images/gir-interpretation-zone.jpg"
+      },
+      {
+        "name": "Kankai Mata Temple",
+        "description": "An ancient temple nestled within the forest, frequented by locals and tourists alike.",
+        "image": "/data/images/kankai-mata-temple.jpg"
+      }
+    ],
+    "culture": {
+      "description": "The Gir region is inhabited by the Maldhari community, traditional livestock herders who have coexisted with lions for centuries. Their sustainable lifestyle and deep connection with the forest ecosystem offer insights into human-wildlife harmony.",
+      "highlights": [
+        "Siddi Tribal Dance - Performed by the African-origin Siddi community",
+        "Maldhari culture - The pastoral lifestyle adapted to coexist with predators",
+        "Traditional knowledge of medicinal plants and forest resources"
+      ]
+    },
+    "weather": {
+      "bestTimeToVisit": "December to April when wildlife sightings are most frequent.",
+      "seasons": {
+        "summer": "Hot and dry from March to June (25°C to 42°C)",
+        "monsoon": "The park is closed during monsoon from June to October",
+        "winter": "Pleasant from November to February (10°C to 25°C)"
+      }
+    },
+    "tips": [
+      "Book safari permits well in advance as they're limited and in high demand",
+      "Early morning safaris offer the best chances of lion sightings",
+      "Wear earth-toned clothing (browns, greens) during safaris to blend with surroundings",
+      "Carry binoculars, camera with zoom lens, and field guides for an enhanced experience"
+    ]
+  },
+  {
+    "id": "dwarka",
+    "name": "Dwarka",
+    "shortDescription": "An ancient holy city and one of the four major Hindu pilgrimage sites in India.",
+    "description": "Dwarka, believed to be the ancient kingdom of Lord Krishna, is steeped in mythology and spiritual significance. Situated at the western tip of the Saurashtra peninsula, this coastal city is one of the Char Dham pilgrimage sites. The magnificent Dwarkadhish Temple, built around 200 BCE, stands as a testament to ancient architectural brilliance with its intricate carvings and imposing structure. Beyond its religious importance, Dwarka offers beautiful beaches, marine sanctuaries, and a rich cultural heritage that attracts pilgrims and tourists alike.",
+    "image": "/data/images/destinations/dwarka-temple.jpg",
+    "bannerImage": "/data/images/dwarka-banner.jpg",
+    "videoUrl": "https://www.youtube.com/embed/wzUQhPytVSE",
+    "type": ["Religious", "Heritage", "Coastal"],
+    "category": "Religious",
+    "priceRange": "₹₹",
+    "rating": 4.6,
+    "location": "Western Gujarat",
+    "attractions": [
+      {
+        "name": "Dwarkadhish Temple",
+        "description": "The main temple dedicated to Lord Krishna, featuring a 78-meter high spire and intricate sandstone carvings.",
+        "image": "/data/images/dwarkadhish-temple.jpg"
+      },
+      {
+        "name": "Beyt Dwarka",
+        "description": "An island believed to be Lord Krishna's residence, accessible by boat and home to several temples.",
+        "image": "/data/images/beyt-dwarka.jpg"
+      },
+      {
+        "name": "Nageshwar Jyotirlinga",
+        "description": "One of the twelve sacred Jyotirlingas of Lord Shiva, featuring a massive Shiva statue.",
+        "image": "/data/images/nageshwar-jyotirlinga.jpg"
+      },
+      {
+        "name": "Okha Marine National Park",
+        "description": "A protected marine sanctuary with coral reefs, mangroves, and diverse marine life.",
+        "image": "/data/images/okha-marine.jpg"
+      }
+    ],
+    "culture": {
+      "description": "Dwarka's culture revolves around its religious significance and maritime heritage. The city witnesses elaborate Krishna Janmashtami celebrations and traditional Garba performances. The local cuisine features distinctive coastal flavors with an emphasis on vegetarian dishes.",
+      "highlights": [
+        "Krishna Raslila - Traditional dance drama depicting Lord Krishna's life",
+        "Janmashtami celebrations at Dwarkadhish Temple",
+        "Ancient maritime traditions and boat-making crafts"
+      ]
+    },
+    "weather": {
+      "bestTimeToVisit": "October to March offers pleasant weather ideal for temple visits and outdoor activities.",
+      "seasons": {
+        "summer": "Hot and humid from April to June (30°C to 40°C)",
+        "monsoon": "Moderate rainfall from July to September (28°C to 32°C)",
+        "winter": "Pleasant and cool from October to March (15°C to 25°C)"
+      }
+    },
+    "tips": [
+      "Visit during morning or evening aarti (prayer ceremony) at Dwarkadhish Temple",
+      "Plan a day trip to Beyt Dwarka, checking boat timings in advance",
+      "Dress modestly while visiting temples (covering shoulders and knees)",
+      "Witness sunset at Gomti Ghat for spectacular views"
+    ]
+  },
+  {
+    "id": "statue-of-unity",
+    "name": "Statue of Unity",
+    "shortDescription": "The world's tallest statue, dedicated to Indian independence leader Sardar Vallabhbhai Patel.",
+    "description": "Standing at an impressive height of 182 meters (597 feet), the Statue of Unity is a tribute to Sardar Vallabhbhai Patel, the architect of united India. Inaugurated in 2018, this engineering marvel is twice the height of the Statue of Liberty and offers panoramic views of the surrounding Narmada River and Sardar Sarovar Dam. The complex has been developed as a comprehensive tourist destination with a museum, audio-visual gallery, viewing gallery, and various attractions including a valley of flowers, jungle safari, and river rafting facilities.",
+    "image": "/data/images/destinations/statue-of-unity.jpg",
+    "bannerImage": "/data/images/statue-of-unity-banner.jpg",
+    "videoUrl": "https://www.youtube.com/embed/gHrTWjJh9JY",
+    "type": ["Monument", "Heritage", "Adventure"],
+    "category": "Monument",
+    "priceRange": "₹₹₹",
+    "rating": 4.7,
+    "location": "Eastern Gujarat",
+    "attractions": [
+      {
+        "name": "Viewing Gallery",
+        "description": "Located at a height of 153 meters, offering breathtaking panoramic views of the surroundings.",
+        "image": "/data/images/sou-viewing-gallery.jpg"
+      },
+      {
+        "name": "Valley of Flowers",
+        "description": "A beautifully landscaped garden with a variety of flowers creating a vibrant display.",
+        "image": "/data/images/valley-of-flowers.jpg"
+      },
+      {
+        "name": "Sardar Sarovar Dam",
+        "description": "One of India's largest hydroelectric projects with impressive engineering features.",
+        "image": "/data/images/sardar-sarovar-dam.jpg"
+      },
+      {
+        "name": "Jungle Safari",
+        "description": "A 375-acre zoological park housing various species of animals and birds in their natural habitats.",
+        "image": "/images/Wildlife.jpg"
+      }
+    ],
+    "culture": {
+      "description": "The area around the Statue of Unity showcases the culture of tribal communities of Gujarat, particularly the Bhil, Rathwa, and Tadvi tribes. The Unity Glow Garden illuminates the site with artistic installations that blend modern technology with cultural themes.",
+      "highlights": [
+        "Tribal craft demonstrations and exhibitions",
+        "Cultural performances showcasing local art forms",
+        "Light and sound show depicting Sardar Patel's contribution to India"
+      ]
+    },
+    "weather": {
+      "bestTimeToVisit": "November to February offers pleasant weather ideal for exploring all attractions.",
+      "seasons": {
+        "summer": "Hot and dry from March to June (30°C to 45°C)",
+        "monsoon": "Heavy rainfall from July to September (25°C to 35°C)",
+        "winter": "Pleasant from October to February (10°C to 30°C)"
+      }
+    },
+    "tips": [
+      "Book viewing gallery tickets online in advance to avoid long queues",
+      "Visit on weekdays to avoid crowds, especially during peak tourist seasons",
+      "Allow a full day to explore all attractions within the complex",
+      "The best views of the statue are during sunrise and sunset"
+    ]
+  },
+  {
+    "id": "somnath",
+    "name": "Somnath",
+    "shortDescription": "Home to the legendary Somnath Temple, one of the twelve sacred Jyotirlingas of Lord Shiva.",
+    "description": "Somnath, situated on the western coast of Gujarat, is renowned for its magnificent temple dedicated to Lord Shiva. The temple has been destroyed and rebuilt multiple times throughout history, symbolizing the resilience of Indian culture and spirituality. The current structure, reconstructed in the Chalukya style of architecture, stands as a testament to ancient Indian craftsmanship. Beyond its religious significance, Somnath offers beautiful beaches, archaeological sites, and the confluence of three sacred rivers - Kapila, Hiran, and Saraswati, making it a multifaceted destination for pilgrims and tourists.",
+    "image": "/data/images/destinations/somnath-temple.jpg",
+    "bannerImage": "/data/images/somnath-banner.jpg",
+    "videoUrl": "https://www.youtube.com/embed/bYIRKwWQzYs",
+    "type": ["Religious", "Heritage", "Coastal"],
+    "category": "Religious",
+    "priceRange": "₹₹",
+    "rating": 4.8,
+    "location": "South-western Gujarat",
+    "attractions": [
+      {
+        "name": "Somnath Temple",
+        "description": "The magnificent temple featuring intricate carvings, a golden spire, and the Arrow Pillar.",
+        "image": "/data/images/somnath-temple.jpg"
+      },
+      {
+        "name": "Somnath Beach",
+        "description": "A serene beach offering beautiful sunset views and religious significance.",
+        "image": "/data/images/somnath-beach.jpg"
+      },
+      {
+        "name": "Bhalka Tirth",
+        "description": "The sacred site where Lord Krishna is believed to have left his mortal body.",
+        "image": "/data/images/bhalka-tirth.jpg"
+      },
+      {
+        "name": "Triveni Sangam",
+        "description": "The confluence of three rivers - Kapila, Hiran, and the mythical Saraswati.",
+        "image": "/data/images/triveni-sangam.jpg"
+      }
+    ],
+    "culture": {
+      "description": "Somnath's culture is deeply rooted in Hindu spirituality and coastal traditions. The region witnesses elaborate temple rituals, religious festivals, and traditional arts. The local cuisine features distinctive Kathiyawadi flavors with an emphasis on vegetarian dishes.",
+      "highlights": [
+        "Maha Shivratri celebrations at Somnath Temple",
+        "Kartik Purnima fair and deep daan (lamp offering) ceremony",
+        "Traditional Kathiyawadi folk music and dance performances"
+      ]
+    },
+    "weather": {
+      "bestTimeToVisit": "October to March offers pleasant weather ideal for temple visits and beach activities.",
+      "seasons": {
+        "summer": "Hot and humid from April to June (28°C to 40°C)",
+        "monsoon": "Moderate rainfall from July to September (25°C to 35°C)",
+        "winter": "Pleasant and cool from October to March (15°C to 25°C)"
+      }
+    },
+    "tips": [
+      "Attend the evening Aarti and light and sound show at Somnath Temple",
+      "Visit during Kartik Purnima (November) for special celebrations",
+      "Dress modestly while visiting the temple (covering shoulders and knees)",
+      "Plan to view both sunrise and sunset from different vantage points"
+    ]
+  }
+]

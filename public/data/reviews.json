@@ -1,0 +1,146 @@
+[
+  {
+    "id": "r1",
+    "destinationId": "ahmedabad",
+    "name": "Rohan Shah",
+    "date": "2025-05-15",
+    "rating": 5,
+    "comment": "The heritage walk through the old city pols was a fantastic experience! Our guide was knowledgeable and showed us hidden gems we would have never discovered on our own. The architecture and morning atmosphere were magical."
+  },
+  {
+    "id": "r2",
+    "destinationId": "ahmedabad",
+    "name": "Sarah Johnson",
+    "date": "2025-04-22",
+    "rating": 4,
+    "comment": "Loved the Sabarmati Ashram and the peaceful atmosphere there. The night food market at Manek Chowk was a highlight - so many delicious options! The city can be quite hot during the day though."
+  },
+  {
+    "id": "r3",
+    "destinationId": "ahmedabad",
+    "name": "Amit Patel",
+    "date": "2025-06-10",
+    "rating": 5,
+    "comment": "As someone interested in architecture, Ahmedabad was a treasure trove. The stepwells, mosques, and traditional houses are extraordinary. Make sure to visit during winter months for comfortable exploration."
+  },
+  {
+    "id": "r4",
+    "destinationId": "kutch",
+    "name": "Maya Desai",
+    "date": "2025-02-08",
+    "rating": 5,
+    "comment": "The White Rann under the full moon was one of the most surreal landscapes I've ever seen. It felt like walking on another planet! The craft villages were also amazing - bought some beautiful embroidery work."
+  },
+  {
+    "id": "r5",
+    "destinationId": "kutch",
+    "name": "James Wilson",
+    "date": "2025-01-20",
+    "rating": 4,
+    "comment": "Visited during Rann Utsav and the cultural performances were spectacular. The white desert is stunning but be prepared for crowds during the festival season. The traditional food was delicious!"
+  },
+  {
+    "id": "r6",
+    "destinationId": "kutch",
+    "name": "Priya Sharma",
+    "date": "2025-03-05",
+    "rating": 5,
+    "comment": "The artisans in Kutch are incredibly skilled. Watching them create Rogan art and embroidery was fascinating. The White Rann sunset is a photographer's dream. Definitely worth the journey!"
+  },
+  {
+    "id": "r7",
+    "destinationId": "gir",
+    "name": "David Chen",
+    "date": "2025-02-12",
+    "rating": 5,
+    "comment": "We saw seven lions including cubs during our safari! Our guide was excellent at tracking and finding the animals. The accommodation was comfortable and the food delicious. A truly memorable wildlife experience."
+  },
+  {
+    "id": "r8",
+    "destinationId": "gir",
+    "name": "Neha Verma",
+    "date": "2025-03-28",
+    "rating": 4,
+    "comment": "The morning safari was more successful than the afternoon one. We saw lions, leopards and many deer species. Book well in advance as permits are limited. The Maldhari village visit was a unique cultural experience."
+  },
+  {
+    "id": "r9",
+    "destinationId": "gir",
+    "name": "Robert Brown",
+    "date": "2025-04-10",
+    "rating": 5,
+    "comment": "As a wildlife enthusiast, seeing Asiatic lions in their only natural habitat was incredible. The forest is beautiful and the conservation story inspiring. The guides are knowledgeable about animal behavior and tracking."
+  },
+  {
+    "id": "r10",
+    "destinationId": "dwarka",
+    "name": "Sanjay Mehta",
+    "date": "2025-05-22",
+    "rating": 5,
+    "comment": "The spiritual atmosphere in Dwarka is profound. The evening aarti at Dwarkadhish Temple was a divine experience. The boat ride to Beyt Dwarka was smooth and the island has a unique charm."
+  },
+  {
+    "id": "r11",
+    "destinationId": "dwarka",
+    "name": "Emily Taylor",
+    "date": "2025-04-15",
+    "rating": 4,
+    "comment": "Beautiful coastal town with significant religious heritage. The temple architecture is magnificent. The beaches are clean and peaceful. Try the local sweets - they're amazing!"
+  },
+  {
+    "id": "r12",
+    "destinationId": "dwarka",
+    "name": "Rajesh Kumar",
+    "date": "2025-03-10",
+    "rating": 5,
+    "comment": "As a pilgrim, visiting Dwarka was a dream come true. The temples are well-maintained and the rituals conducted with devotion. The sunset at Gomti Ghat is not to be missed. Truly a divine experience."
+  },
+  {
+    "id": "r13",
+    "destinationId": "statue-of-unity",
+    "name": "Anjali Singh",
+    "date": "2025-06-05",
+    "rating": 5,
+    "comment": "The Statue of Unity is awe-inspiring! The view from the viewing gallery is breathtaking. The museum and exhibitions are informative and well-designed. Plan a full day to enjoy all the attractions."
+  },
+  {
+    "id": "r14",
+    "destinationId": "statue-of-unity",
+    "name": "Michael Thompson",
+    "date": "2025-05-18",
+    "rating": 4,
+    "comment": "An engineering marvel and impressive tribute. The entire complex is well-planned with various activities. The Valley of Flowers was beautiful and the laser show was entertaining. It gets hot during the day, so carry water."
+  },
+  {
+    "id": "r15",
+    "destinationId": "statue-of-unity",
+    "name": "Deepa Nair",
+    "date": "2025-04-30",
+    "rating": 5,
+    "comment": "Beyond just the statue, the entire complex offers so much to do - jungle safari, river rafting, Valley of Flowers. The statue itself is magnificent and the story of Sardar Patel is inspiringly presented."
+  },
+  {
+    "id": "r16",
+    "destinationId": "somnath",
+    "name": "Vikram Reddy",
+    "date": "2025-02-25",
+    "rating": 5,
+    "comment": "The temple is magnificent and the sound of waves crashing nearby creates a mystical atmosphere. The light and sound show narrating the temple's history is excellent. A deeply spiritual experience."
+  },
+  {
+    "id": "r17",
+    "destinationId": "somnath",
+    "name": "Lisa Garcia",
+    "date": "2025-03-15",
+    "rating": 4,
+    "comment": "Beautiful temple complex with amazing architecture. The beach nearby is clean and peaceful. The Arrow Pillar and its astronomical significance was fascinating. The prasad (religious offering) was delicious."
+  },
+  {
+    "id": "r18",
+    "destinationId": "somnath",
+    "name": "Harish Iyengar",
+    "date": "2025-01-08",
+    "rating": 5,
+    "comment": "Visited during Kartik Purnima and the celebrations were spectacular. The temple looks magical when illuminated at night. The Triveni Sangam is a sacred spot worth visiting. One of the most powerful Jyotirlingas in India."
+  }
+]

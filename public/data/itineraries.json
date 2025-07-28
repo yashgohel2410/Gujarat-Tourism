@@ -1,0 +1,572 @@
+[
+  {
+    "id": "ahmedabad-heritage-tour",
+    "title": "Ahmedabad Heritage & Culture Tour",
+    "description": "Explore the rich heritage of India's first UNESCO World Heritage City with visits to iconic monuments, traditional markets, and cultural experiences.",
+    "coverImage": "/data/images/destinations/ahmedabad-heritage.png",
+    "duration": 3,
+    "destinations": ["Ahmedabad", "Adalaj"],
+    "destinationId": "ahmedabad",
+    "days": [
+      {
+        "day": 1,
+        "title": "Heritage Exploration",
+        "activities": [
+          {
+            "time": "08:00 AM",
+            "activity": "Breakfast at traditional Gujarati restaurant",
+            "description": "Start your day with authentic Gujarati breakfast including Fafda-Jalebi, Thepla, or Dhokla."
+          },
+          {
+            "time": "09:30 AM",
+            "activity": "Sabarmati Ashram Visit",
+            "description": "Explore the former residence of Mahatma Gandhi and learn about India's independence movement."
+          },
+          {
+            "time": "12:00 PM",
+            "activity": "Lunch at House of MG",
+            "description": "Enjoy traditional Gujarati thali at this heritage hotel restaurant."
+          },
+          {
+            "time": "02:00 PM",
+            "activity": "Sidi Saiyyed Mosque & Bhadra Fort",
+            "description": "Visit the famous mosque known for its intricate jali work and the historic Bhadra Fort."
+          },
+          {
+            "time": "05:00 PM",
+            "activity": "Law Garden Market",
+            "description": "Shop for traditional Gujarati handicrafts, textiles, and garments."
+          },
+          {
+            "time": "07:30 PM",
+            "activity": "Dinner and cultural program",
+            "description": "Experience local cuisine and traditional folk performances."
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Modern Ahmedabad & Adalaj",
+        "activities": [
+          {
+            "time": "08:30 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Start your day with a hearty breakfast."
+          },
+          {
+            "time": "10:00 AM",
+            "activity": "Adalaj Stepwell excursion",
+            "description": "Visit the magnificent five-story stepwell with intricate carvings dating back to 1498."
+          },
+          {
+            "time": "01:00 PM",
+            "activity": "Lunch at local restaurant",
+            "description": "Try local specialties like Undhiyu or Khichdi-Kadhi."
+          },
+          {
+            "time": "03:00 PM",
+            "activity": "Kankaria Lake",
+            "description": "Enjoy boating, visit the zoo, or take a ride on the toy train around this historic lake."
+          },
+          {
+            "time": "06:00 PM",
+            "activity": "Sunset at Sabarmati Riverfront",
+            "description": "Stroll along the beautifully developed riverfront and enjoy the sunset views."
+          },
+          {
+            "time": "08:00 PM",
+            "activity": "Night food walk at Manek Chowk",
+            "description": "Experience the vibrant night food market offering a variety of local street food."
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Heritage Walk & Museums",
+        "activities": [
+          {
+            "time": "07:00 AM",
+            "activity": "Heritage Walk through Pols",
+            "description": "Take a guided walk through the old city's traditional housing clusters known as 'pols'."
+          },
+          {
+            "time": "10:00 AM",
+            "activity": "Breakfast at traditional cafe",
+            "description": "Enjoy local breakfast at a heritage cafe in the old city."
+          },
+          {
+            "time": "11:30 AM",
+            "activity": "Calico Museum of Textiles",
+            "description": "Explore one of the finest textile museums in the world (prior booking required)."
+          },
+          {
+            "time": "02:00 PM",
+            "activity": "Lunch at Agashiye",
+            "description": "Experience rooftop dining with authentic Gujarati cuisine."
+          },
+          {
+            "time": "04:00 PM",
+            "activity": "Auto World Vintage Car Museum",
+            "description": "Visit this unique museum showcasing vintage cars and other automobiles."
+          },
+          {
+            "time": "07:00 PM",
+            "activity": "Shopping and dinner at Alpha One Mall",
+            "description": "End your Ahmedabad tour with shopping and dinner at this modern mall."
+          }
+        ]
+      }
+    ],
+    "basePrice": 12500,
+    "addons": [
+      {
+        "id": "ahm-addon-1",
+        "name": "Private Heritage Walk Guide",
+        "description": "Exclusive expert guide for the heritage walk through the old city pols",
+        "price": 2500
+      },
+      {
+        "id": "ahm-addon-2",
+        "name": "Traditional Cooking Class",
+        "description": "Learn to cook authentic Gujarati dishes with a local family",
+        "price": 1800
+      },
+      {
+        "id": "ahm-addon-3",
+        "name": "Textile Workshop",
+        "description": "Hands-on workshop learning traditional block printing techniques",
+        "price": 1500
+      }
+    ]
+  },
+  {
+    "id": "kutch-desert-safari",
+    "title": "Kutch White Desert & Cultural Safari",
+    "description": "Experience the magical White Rann of Kutch with traditional craft villages, stunning desert landscapes, and authentic cultural encounters.",
+    "coverImage": "/data/images/destinations/rann-of-kutch.jpg",
+    "duration": 3,
+    "destinations": ["Bhuj", "White Rann", "Mandvi"],
+    "destinationId": "kutch",
+    "days": [
+      {
+        "day": 1,
+        "title": "Bhuj Exploration",
+        "activities": [
+          {
+            "time": "08:00 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Start your day with local Kutchi breakfast specialties."
+          },
+          {
+            "time": "09:30 AM",
+            "activity": "Aina Mahal & Prag Mahal",
+            "description": "Visit these magnificent palaces with unique architecture and historical artifacts."
+          },
+          {
+            "time": "12:30 PM",
+            "activity": "Lunch at local restaurant",
+            "description": "Try traditional Kutchi cuisine with its unique flavors."
+          },
+          {
+            "time": "02:30 PM",
+            "activity": "Kutch Museum",
+            "description": "Explore Gujarat's oldest museum with artifacts showcasing Kutch's rich heritage."
+          },
+          {
+            "time": "04:30 PM",
+            "activity": "Bhujodi Craft Village",
+            "description": "Visit this crafts village famous for its handloom weaving and block printing."
+          },
+          {
+            "time": "07:00 PM",
+            "activity": "Dinner with cultural program",
+            "description": "Enjoy local cuisine with traditional Kutchi folk music and dance performances."
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "White Rann Experience",
+        "activities": [
+          {
+            "time": "08:00 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Start your day with a hearty breakfast."
+          },
+          {
+            "time": "10:00 AM",
+            "activity": "Visit to Kala Dungar (Black Hill)",
+            "description": "Experience panoramic views of the Great Rann from the highest point in Kutch."
+          },
+          {
+            "time": "01:00 PM",
+            "activity": "Lunch at resort",
+            "description": "Enjoy lunch with views of the surrounding landscape."
+          },
+          {
+            "time": "03:30 PM",
+            "activity": "White Rann visit",
+            "description": "Experience the vast salt marsh that stretches endlessly towards the horizon."
+          },
+          {
+            "time": "05:30 PM",
+            "activity": "Sunset at White Rann",
+            "description": "Witness the magical sunset over the white desert with changing hues."
+          },
+          {
+            "time": "07:30 PM",
+            "activity": "Dinner at Rann Utsav tent city",
+            "description": "Experience dining under the stars with cultural performances (seasonal)."
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Craft Villages & Mandvi",
+        "activities": [
+          {
+            "time": "08:00 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Start your day with local breakfast items."
+          },
+          {
+            "time": "09:30 AM",
+            "activity": "Visit to Nirona village",
+            "description": "Witness the unique Rogan Art and copper bell making traditions."
+          },
+          {
+            "time": "11:30 AM",
+            "activity": "Visit to Hodka village",
+            "description": "Experience the colorful huts and exquisite embroidery work by local artisans."
+          },
+          {
+            "time": "01:30 PM",
+            "activity": "Lunch with local family",
+            "description": "Enjoy homemade Kutchi cuisine with a local family."
+          },
+          {
+            "time": "03:00 PM",
+            "activity": "Drive to Mandvi Beach",
+            "description": "Travel to the coastal town of Mandvi known for its beach and shipbuilding yard."
+          },
+          {
+            "time": "04:30 PM",
+            "activity": "Vijay Vilas Palace & Beach",
+            "description": "Visit the summer palace of Kutch royals and enjoy the clean beach."
+          },
+          {
+            "time": "07:00 PM",
+            "activity": "Return to Bhuj for dinner",
+            "description": "Farewell dinner with Kutchi specialties."
+          }
+        ]
+      }
+    ],
+    "basePrice": 15000,
+    "addons": [
+      {
+        "id": "kutch-addon-1",
+        "name": "Full Moon Night at White Rann",
+        "description": "Special experience of the White Rann under the full moon with dinner",
+        "price": 3500
+      },
+      {
+        "id": "kutch-addon-2",
+        "name": "Camel Cart Safari",
+        "description": "Traditional camel cart ride through villages and desert landscapes",
+        "price": 1200
+      },
+      {
+        "id": "kutch-addon-3",
+        "name": "Embroidery Workshop",
+        "description": "Learn traditional Kutchi embroidery techniques from master artisans",
+        "price": 1800
+      }
+    ]
+  },
+  {
+    "id": "gir-wildlife-safari",
+    "title": "Gir National Park Wildlife Safari",
+    "description": "Embark on an exciting wildlife adventure to spot the majestic Asiatic lions in their natural habitat along with diverse flora and fauna.",
+    "coverImage": "/data/images/destinations/gir-national-park.jpg",
+    "duration": 3,
+    "destinations": ["Gir National Park", "Sasan Gir"],
+    "destinationId": "gir",
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival & Orientation",
+        "activities": [
+          {
+            "time": "12:00 PM",
+            "activity": "Check-in at resort",
+            "description": "Arrive and check in at your safari lodge or resort near Gir National Park."
+          },
+          {
+            "time": "01:00 PM",
+            "activity": "Lunch at resort",
+            "description": "Enjoy local Saurashtra cuisine at the resort restaurant."
+          },
+          {
+            "time": "03:00 PM",
+            "activity": "Orientation & Gir Interpretation Zone",
+            "description": "Visit the interpretation zone to learn about Gir's ecosystem and conservation efforts."
+          },
+          {
+            "time": "05:30 PM",
+            "activity": "Nature walk around resort",
+            "description": "Take a guided walk to observe birds and understand the local flora."
+          },
+          {
+            "time": "07:30 PM",
+            "activity": "Dinner and wildlife documentary",
+            "description": "Enjoy dinner followed by a documentary on Asiatic lions and Gir conservation."
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Safari Day",
+        "activities": [
+          {
+            "time": "06:00 AM",
+            "activity": "Morning safari",
+            "description": "Early morning jeep safari into Gir National Park for the best wildlife sightings."
+          },
+          {
+            "time": "09:30 AM",
+            "activity": "Breakfast at resort",
+            "description": "Return for a hearty breakfast and relaxation."
+          },
+          {
+            "time": "11:00 AM",
+            "activity": "Visit to Kamleshwar Dam",
+            "description": "Explore this reservoir where wildlife congregates during summer."
+          },
+          {
+            "time": "01:00 PM",
+            "activity": "Lunch at resort",
+            "description": "Enjoy lunch and afternoon rest."
+          },
+          {
+            "time": "03:30 PM",
+            "activity": "Evening safari",
+            "description": "Second safari into different zones of the national park."
+          },
+          {
+            "time": "07:00 PM",
+            "activity": "Dinner with Siddi tribal dance",
+            "description": "Experience unique African-origin tribal dance performance while dining."
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Local Culture & Departure",
+        "activities": [
+          {
+            "time": "07:00 AM",
+            "activity": "Nature walk & bird watching",
+            "description": "Early morning guided walk focusing on bird species and smaller fauna."
+          },
+          {
+            "time": "09:00 AM",
+            "activity": "Breakfast at resort",
+            "description": "Enjoy a leisurely breakfast."
+          },
+          {
+            "time": "10:30 AM",
+            "activity": "Visit to Maldhari village",
+            "description": "Interact with the traditional pastoralist community who coexist with lions."
+          },
+          {
+            "time": "12:30 PM",
+            "activity": "Visit to Kankai Mata Temple",
+            "description": "Explore this ancient temple nestled within the forest."
+          },
+          {
+            "time": "02:00 PM",
+            "activity": "Lunch and departure",
+            "description": "Final lunch followed by check-out and departure."
+          }
+        ]
+      }
+    ],
+    "basePrice": 18000,
+    "addons": [
+      {
+        "id": "gir-addon-1",
+        "name": "Private Safari Vehicle",
+        "description": "Exclusive jeep safari with expert naturalist guide",
+        "price": 5000
+      },
+      {
+        "id": "gir-addon-2",
+        "name": "Wildlife Photography Workshop",
+        "description": "Half-day workshop with professional wildlife photographer",
+        "price": 3500
+      },
+      {
+        "id": "gir-addon-3",
+        "name": "Sasan Gir Night Stay",
+        "description": "Overnight stay in forest guest house (subject to availability)",
+        "price": 4000
+      }
+    ]
+  },
+  {
+    "id": "dwarka-spiritual-journey",
+    "title": "Dwarka Spiritual & Coastal Journey",
+    "description": "Discover the sacred city of Dwarka with temple visits, spiritual experiences, and beautiful coastal scenery including the mystical Beyt Dwarka island.",
+    "coverImage": "/data/images/destinations/dwarka-temple.jpg",
+    "duration": 3,
+    "destinations": ["Dwarka", "Beyt Dwarka", "Nageshwar"],
+    "destinationId": "dwarka",
+    "days": [
+      {
+        "day": 1,
+        "title": "Sacred Dwarka",
+        "activities": [
+          {
+            "time": "08:00 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Start your day with local Gujarati breakfast."
+          },
+          {
+            "time": "09:30 AM",
+            "activity": "Dwarkadhish Temple visit",
+            "description": "Visit the magnificent temple dedicated to Lord Krishna with morning rituals."
+          },
+          {
+            "time": "12:00 PM",
+            "activity": "Lunch at local restaurant",
+            "description": "Enjoy traditional sattvic (pure vegetarian) food."
+          },
+          {
+            "time": "02:00 PM",
+            "activity": "Gomti Ghat",
+            "description": "Visit the sacred ghat where river Gomti meets the Arabian Sea."
+          },
+          {
+            "time": "04:00 PM",
+            "activity": "Rukmini Devi Temple",
+            "description": "Visit this ancient temple dedicated to Krishna's consort Rukmini."
+          },
+          {
+            "time": "06:30 PM",
+            "activity": "Evening aarti at Dwarkadhish Temple",
+            "description": "Experience the elaborate evening prayer ceremony with music and rituals."
+          },
+          {
+            "time": "08:00 PM",
+            "activity": "Dinner at hotel",
+            "description": "Dinner followed by relaxation."
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Beyt Dwarka & Nageshwar",
+        "activities": [
+          {
+            "time": "07:30 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Early breakfast to prepare for day trip."
+          },
+          {
+            "time": "08:30 AM",
+            "activity": "Boat ride to Beyt Dwarka",
+            "description": "Take a boat to this sacred island believed to be Krishna's residence."
+          },
+          {
+            "time": "10:00 AM",
+            "activity": "Beyt Dwarka temples tour",
+            "description": "Visit various temples on the island including Krishna's residence."
+          },
+          {
+            "time": "01:00 PM",
+            "activity": "Lunch at local eatery",
+            "description": "Try local coastal cuisine specialties."
+          },
+          {
+            "time": "03:00 PM",
+            "activity": "Return to mainland",
+            "description": "Boat journey back to Dwarka."
+          },
+          {
+            "time": "04:00 PM",
+            "activity": "Nageshwar Jyotirlinga",
+            "description": "Visit one of the twelve sacred Jyotirlingas of Lord Shiva."
+          },
+          {
+            "time": "06:00 PM",
+            "activity": "Sunset at Dwarka Beach",
+            "description": "Witness the beautiful sunset at the beach."
+          },
+          {
+            "time": "08:00 PM",
+            "activity": "Dinner with cultural program",
+            "description": "Enjoy traditional Gujarati dinner with folk music performance."
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Okha & Departure",
+        "activities": [
+          {
+            "time": "07:00 AM",
+            "activity": "Morning aarti at Dwarkadhish Temple",
+            "description": "Experience the spiritual morning prayer ceremony."
+          },
+          {
+            "time": "08:30 AM",
+            "activity": "Breakfast at hotel",
+            "description": "Enjoy breakfast at leisure."
+          },
+          {
+            "time": "10:00 AM",
+            "activity": "Okha Marine National Park",
+            "description": "Visit this protected marine sanctuary with diverse marine life."
+          },
+          {
+            "time": "01:00 PM",
+            "activity": "Lunch at seaside restaurant",
+            "description": "Enjoy fresh seafood or vegetarian coastal cuisine."
+          },
+          {
+            "time": "03:00 PM",
+            "activity": "Shopping for souvenirs",
+            "description": "Buy local handicrafts, religious items, and seashell artifacts."
+          },
+          {
+            "time": "05:00 PM",
+            "activity": "Check-out and departure",
+            "description": "Final visit to Dwarkadhish Temple before departure."
+          }
+        ]
+      }
+    ],
+    "basePrice": 14000,
+    "addons": [
+      {
+        "id": "dwarka-addon-1",
+        "name": "Private Temple Guide",
+        "description": "Expert guide explaining the mythology and significance of temples",
+        "price": 2000
+      },
+      {
+        "id": "dwarka-addon-2",
+        "name": "Underwater Dwarka Exploration",
+        "description": "Boat trip with glass bottom to view submerged ancient city remains",
+        "price": 3000
+      },
+      {
+        "id": "dwarka-addon-3",
+        "name": "Okha Lighthouse Visit",
+        "description": "Special permission visit to the lighthouse with panoramic views",
+        "price": 1200
+      }
+    ]
+  }
+]

@@ -80,48 +80,48 @@ export default function Destinations() {
   };
 
   return (
-    <div className="container py-10">
-      <motion.div 
-        className="text-center max-w-3xl mx-auto mb-8 space-y-2"
+    <div className="container py-6 sm:py-8 md:py-10">
+      <motion.div
+        className="text-center max-w-3xl mx-auto mb-6 sm:mb-8 space-y-2 px-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-4xl font-bold">Explore Gujarat's Destinations</h1>
-        <p className="text-muted-foreground">Discover the most beautiful places across Gujarat</p>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Explore Gujarat's Destinations</h1>
+        <p className="text-muted-foreground text-sm sm:text-base">Discover the most beautiful places across Gujarat</p>
       </motion.div>
 
-      <div className="bg-background/80 backdrop-blur-md shadow-md rounded-lg mb-8 border">
-        <div className="p-4 flex flex-col md:flex-row gap-4">
+      <div className="bg-background/80 backdrop-blur-md shadow-md rounded-lg mb-6 sm:mb-8 border">
+        <div className="p-3 sm:p-4 flex flex-col md:flex-row gap-3 sm:gap-4">
           <div className="relative flex-grow">
-            <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input
               placeholder="Search destinations..."
-              className="pl-9"
+              className="pl-9 h-11 text-base"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
           <Button
             variant="outline"
-            className="md:w-auto w-full gap-2"
+            className="md:w-auto w-full gap-2 h-11 touch-manipulation"
             onClick={() => setShowFilters(!showFilters)}
           >
             <SlidersHorizontal className="h-4 w-4" />
             Filters
           </Button>
         </div>
-        
+
         {showFilters && (
-          <div className="p-4 border-t border-border grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="p-3 sm:p-4 border-t border-border grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <div>
-              <label className="text-sm font-medium mb-1 block">Category</label>
-              <Select value={selectedCategory || ""} onValueChange={setSelectedCategory}>
-                <SelectTrigger>
+              <label className="text-sm font-medium mb-2 block">Category</label>
+              <Select value={selectedCategory || "all"} onValueChange={(value) => setSelectedCategory(value === "all" ? null : value)}>
+                <SelectTrigger className="h-11 text-base">
                   <SelectValue placeholder="All Categories" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Categories</SelectItem>
+                  <SelectItem value="all">All Categories</SelectItem>
                   {categories.map((category) => (
                     <SelectItem key={category} value={category}>
                       {category}
@@ -130,21 +130,23 @@ export default function Destinations() {
                 </SelectContent>
               </Select>
             </div>
-            
+
             <div>
-              <label className="text-sm font-medium mb-1 block">Min Rating ({minRating}+)</label>
-              <Slider
-                value={[minRating]}
-                min={0}
-                max={5}
-                step={0.5}
-                onValueChange={(value) => setMinRating(value[0])}
-                className="py-4"
-              />
+              <label className="text-sm font-medium mb-2 block">Min Rating ({minRating}+)</label>
+              <div className="py-4">
+                <Slider
+                  value={[minRating]}
+                  min={0}
+                  max={5}
+                  step={0.5}
+                  onValueChange={(value) => setMinRating(value[0])}
+                  className="touch-manipulation"
+                />
+              </div>
             </div>
-            
-            <div className="flex items-end">
-              <Button variant="secondary" onClick={resetFilters} className="gap-2">
+
+            <div className="flex items-end sm:col-span-2 lg:col-span-1">
+              <Button variant="secondary" onClick={resetFilters} className="gap-2 h-11 w-full lg:w-auto touch-manipulation">
                 <X className="h-4 w-4" />
                 Reset Filters
               </Button>
@@ -153,31 +155,32 @@ export default function Destinations() {
         )}
       </div>
 
-      <Tabs defaultValue="all" value={activeTab} onValueChange={setActiveTab} className="mb-8">
-        <TabsList className="w-full max-w-lg mx-auto grid grid-cols-3 md:grid-cols-6">
-          <TabsTrigger value="all">All</TabsTrigger>
-          <TabsTrigger value="heritage">Heritage</TabsTrigger>
-          <TabsTrigger value="wildlife">Wildlife</TabsTrigger>
-          <TabsTrigger value="religious">Religious</TabsTrigger>
-          <TabsTrigger value="coastal">Coastal</TabsTrigger>
-          <TabsTrigger value="adventure">Adventure</TabsTrigger>
+      <Tabs defaultValue="all" value={activeTab} onValueChange={setActiveTab} className="mb-6 sm:mb-8">
+        <TabsList className="w-full max-w-2xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 h-auto p-1 gap-1">
+          <TabsTrigger value="all" className="text-xs sm:text-sm py-2 px-2">All</TabsTrigger>
+          <TabsTrigger value="heritage" className="text-xs sm:text-sm py-2 px-2">Heritage</TabsTrigger>
+          <TabsTrigger value="wildlife" className="text-xs sm:text-sm py-2 px-2">Wildlife</TabsTrigger>
+          <TabsTrigger value="religious" className="text-xs sm:text-sm py-2 px-2">Religious</TabsTrigger>
+          <TabsTrigger value="coastal" className="text-xs sm:text-sm py-2 px-2">Coastal</TabsTrigger>
+          <TabsTrigger value="adventure" className="text-xs sm:text-sm py-2 px-2">Adventure</TabsTrigger>
         </TabsList>
       </Tabs>
 
       {loading ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 auto-rows-fr">
           {[...Array(6)].map((_, i) => (
-            <div key={i} className="rounded-xl bg-muted/30 animate-pulse h-80"></div>
+            <div key={i} className="rounded-xl bg-muted/30 animate-pulse min-h-[320px]"></div>
           ))}
         </div>
       ) : filteredDestinations.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
           {filteredDestinations.map((destination) => (
             <motion.div
               key={destination.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
+              className="h-full"
             >
               <GlassCard
                 title={destination.name}
@@ -197,9 +200,9 @@ export default function Destinations() {
           ))}
         </div>
       ) : (
-        <div className="text-center py-16">
-          <h3 className="text-xl font-medium mb-2">No destinations found</h3>
-          <p className="text-muted-foreground">Try adjusting your search or filters</p>
+        <div className="text-center py-12 sm:py-16">
+          <h3 className="text-lg sm:text-xl font-medium mb-2">No destinations found</h3>
+          <p className="text-muted-foreground text-sm sm:text-base">Try adjusting your search or filters</p>
           <Button variant="outline" onClick={resetFilters} className="mt-4">
             Reset Filters
           </Button>

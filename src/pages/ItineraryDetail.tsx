@@ -28,7 +28,6 @@ export default function ItineraryDetail() {
     {}
   );
   const [loading, setLoading] = useState(true);
-  console.log({ itinerary });
 
   useEffect(() => {
     const fetchData = async () => {

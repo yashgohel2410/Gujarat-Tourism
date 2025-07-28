@@ -117,13 +117,13 @@ export default function Reviews() {
       </motion.div>
 
       <div className="bg-background/80 backdrop-blur-md shadow-md rounded-lg p-6 mb-8 border">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="col-span-full md:col-span-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="sm:col-span-2 lg:col-span-1">
             <div className="relative">
-              <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
                 placeholder="Search reviews..."
-                className="pl-9"
+                className="pl-9 h-11 text-base"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
@@ -131,12 +131,12 @@ export default function Reviews() {
           </div>
           
           <div>
-            <Select value={ratingFilter} onValueChange={handleRatingFilterChange}>
-              <SelectTrigger>
+            <Select value={ratingFilter || "all"} onValueChange={(value) => handleRatingFilterChange(value === "all" ? "" : value)}>
+              <SelectTrigger className="h-11 text-base">
                 <SelectValue placeholder="Filter by rating" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Ratings</SelectItem>
+                <SelectItem value="all">All Ratings</SelectItem>
                 <SelectItem value="5">5 Stars</SelectItem>
                 <SelectItem value="4">4 Stars</SelectItem>
                 <SelectItem value="3">3 Stars</SelectItem>
@@ -145,10 +145,10 @@ export default function Reviews() {
               </SelectContent>
             </Select>
           </div>
-          
+
           <div>
             <Select value={sortOption} onValueChange={handleSortChange}>
-              <SelectTrigger>
+              <SelectTrigger className="h-11 text-base">
                 <SelectValue placeholder="Sort by" />
               </SelectTrigger>
               <SelectContent>
@@ -171,22 +171,23 @@ export default function Reviews() {
       </div>
 
       {loading ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 auto-rows-fr">
           {[...Array(6)].map((_, i) => (
-            <div key={i} className="rounded-xl bg-muted/30 animate-pulse h-48"></div>
+            <div key={i} className="rounded-xl bg-muted/30 animate-pulse min-h-[280px]"></div>
           ))}
         </div>
       ) : filteredReviews.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 auto-rows-fr">
           {filteredReviews.map((review, index) => (
             <motion.div
               key={review.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
+              className="h-full"
             >
-              <Card className="h-full backdrop-blur-md bg-white/20 dark:bg-gray-950/30 shadow-sm">
-                <div className="p-6">
+              <Card className="h-full backdrop-blur-md bg-white/20 dark:bg-gray-950/30 shadow-sm flex flex-col">
+                <div className="p-6 flex-1 flex flex-col">
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex gap-3">
                       <Avatar className="h-10 w-10 border">
@@ -211,28 +212,28 @@ export default function Reviews() {
                       ))}
                     </div>
                   </div>
-                  
+
                   {destinations[review.destinationId] && (
                     <div className="mb-3 text-sm">
                       <span className="font-medium">Destination: </span>
                       <span className="text-primary">{destinations[review.destinationId]?.name}</span>
                     </div>
                   )}
-                  
-                  <div className="relative">
+
+                  <div className="relative flex-1">
                     <p className="text-sm leading-relaxed">
                       {review.comment.length > 200
                         ? `${review.comment.substring(0, 200)}...`
                         : review.comment}
                     </p>
-                    
+
                     {review.comment.length > 200 && (
                       <Button variant="link" className="p-0 h-auto text-xs">
                         Read more
                       </Button>
                     )}
                   </div>
-                  
+
                   {review.tips && (
                     <div className="mt-4 p-3 bg-muted/50 rounded-lg">
                       <p className="text-xs font-medium">Traveler's Tip</p>

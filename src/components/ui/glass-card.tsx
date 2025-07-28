@@ -26,7 +26,6 @@ export function GlassCard({
   className,
   aspectRatio = "square",
   children,
-  ...props
 }: GlassCardProps) {
   const [isHovered, setIsHovered] = useState(false)
 
@@ -34,25 +33,30 @@ export function GlassCard({
     <motion.div
       className={cn(
         "group relative overflow-hidden rounded-xl backdrop-blur-md border",
-        "bg-white/20 dark:bg-gray-950/30 shadow-lg",
+        "bg-white/20 dark:bg-gray-950/30 shadow-lg touch-manipulation",
+        "h-full flex flex-col", // Added flex column and full height
         hoverEffect && "transition-all duration-300 ease-in-out",
+        "active:scale-95 active:shadow-sm",
         className
       )}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onTouchStart={() => setIsHovered(true)}
+      onTouchEnd={() => setIsHovered(false)}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      {...props}
     >
       {imageSrc && (
         <div className={cn(
-          "overflow-hidden",
+          "overflow-hidden flex-shrink-0", // Added flex-shrink-0 to prevent image from shrinking
           aspectRatio === "portrait" && "aspect-[2/3]",
           aspectRatio === "square" && "aspect-square",
           aspectRatio === "video" && "aspect-video",
           aspectRatio === "wide" && "aspect-[3/1]",
+          // Default aspect ratio for consistent sizing
+          !aspectRatio && "aspect-[4/3]"
         )}>
           <img
             src={imageSrc}
@@ -64,17 +68,19 @@ export function GlassCard({
           />
         </div>
       )}
-      <div className="p-5">
-        <div className="space-y-2">
+      <div className="p-5 flex-1 flex flex-col"> {/* Added flex-1 and flex-col to fill remaining space */}
+        <div className="space-y-2 flex-1"> {/* Added flex-1 to push content to fill space */}
           {badge && (
             <span className="inline-block px-2 py-1 text-xs font-medium rounded-full bg-primary/10 text-primary">
               {badge}
             </span>
           )}
-          <h3 className="font-medium text-lg">{title}</h3>
-          {description && <p className="text-sm text-muted-foreground">{description}</p>}
+          <h3 className="font-medium text-lg line-clamp-2">{title}</h3> {/* Added line-clamp for consistent title height */}
+          {description && (
+            <p className="text-sm text-muted-foreground line-clamp-3">{description}</p> /* Added line-clamp for consistent description height */
+          )}
           {rating && (
-            <div className="flex items-center space-x-1">
+            <div className="flex items-center space-x-1 mt-auto"> {/* Added mt-auto to push rating to bottom */}
               {[...Array(5)].map((_, i) => (
                 <svg
                   key={i}

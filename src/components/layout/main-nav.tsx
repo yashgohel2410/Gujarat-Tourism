@@ -1,7 +1,5 @@
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Search } from "lucide-react";
 
 export function MainNav({
   className,
@@ -36,10 +34,6 @@ export function MainNav({
       >
         Reviews
       </Link>
-      <Button variant="ghost" size="icon">
-        <Search className="h-4 w-4" />
-        <span className="sr-only">Search</span>
-      </Button>
     </nav>
   );
 }

@@ -67,15 +67,15 @@ export default function Itineraries() {
   };
 
   return (
-    <div className="container py-10">
-      <motion.div 
-        className="text-center max-w-3xl mx-auto mb-8 space-y-2"
+    <div className="container py-6 sm:py-8 md:py-10">
+      <motion.div
+        className="text-center max-w-3xl mx-auto mb-6 sm:mb-8 space-y-2 px-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-4xl font-bold">Gujarat Itineraries</h1>
-        <p className="text-muted-foreground">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Gujarat Itineraries</h1>
+        <p className="text-muted-foreground text-sm sm:text-base">
           Discover curated travel plans for exploring Gujarat's wonders
         </p>
       </motion.div>
@@ -119,19 +119,20 @@ export default function Itineraries() {
       </div>
 
       {loading ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 auto-rows-fr">
           {[...Array(4)].map((_, i) => (
-            <div key={i} className="rounded-xl bg-muted/30 animate-pulse h-96"></div>
+            <div key={i} className="rounded-xl bg-muted/30 animate-pulse min-h-[400px]"></div>
           ))}
         </div>
       ) : filteredItineraries.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 auto-rows-fr">
           {filteredItineraries.map((itinerary, idx) => (
             <motion.div
               key={itinerary.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
+              className="h-full"
             >
               <GlassCard
                 title={itinerary.title}
@@ -156,7 +157,7 @@ export default function Itineraries() {
                     Best time: {itinerary.bestTime}
                   </div>
                 </div>
-                
+
                 <div className="mt-4">
                   <Button asChild variant="outline" className="w-full gap-1">
                     <Link to={`/itineraries/${itinerary.id}`}>
